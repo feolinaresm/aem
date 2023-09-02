@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/m-site" mode="merge"/>
+    <filter root="/content/m-site" mode="merge"/>
+    <filter root="/content/dam/m-site" mode="merge">
+        <exclude pattern="/content/dam/m-site(/.*)?"/>
+        <include pattern="/content/dam/m-site/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/m-site/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/m-site" mode="merge"/>
+    <filter root="/var/commerce/products/m-site-default" mode="merge"/>
+</workspaceFilter>
